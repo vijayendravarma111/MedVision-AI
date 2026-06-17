@@ -1,0 +1,8 @@
+gradio
+torch
+torchvision
+timm
+numpy
+opencv-python
+pillow
+reportlab

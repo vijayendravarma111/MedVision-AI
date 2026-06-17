@@ -1,0 +1,45 @@
+# Virtual Environments
+venv/
+.venv/
+*/venv/
+*/.venv/
+ENV/
+env/
+
+# Python Cache & Compiled Files
+__pycache__/
+*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Model Weights and Checkpoints (Large Files)
+*.pth
+*.pt
+*.bin
+*.h5
+*.ckpt
+boneguard_final.pth
+best_chest_model_v2.pth
+best_brain_model.pth
+brain_model_complete.pth
+
+# Application Runtime Outputs and User Uploads
+*/reports/
+*/uploads/
+*/outputs/
+*/gradcam_outputs/
+outputs/
+reports/
+uploads/
+gradcam_outputs/
+*.pdf
+*Report*.pdf
+temp_mri.jpg
+*/temp_mri.jpg
+
+# OS-Specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
